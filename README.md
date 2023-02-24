@@ -1,2 +1,1 @@
-# mynotespages
-My Notes Pages
+My Notes
