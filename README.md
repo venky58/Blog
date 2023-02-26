@@ -6,15 +6,15 @@
 
 Given a multiplicative cyclic group of order $p$, $Z_p^{\*}$ for a prime $p$, and a generator $g \in Z_p^{\*}$, for some $x$, $1 < x < p-1$, if $y \equiv g^x \mod p$ then it is computationally infeasible to determine $x$ from $y$.
 
-$G$ is called the *base group* while $G_T$ is called the *target group*.
-
 ### 2. The Diffie-Hellman Assumption ###
 
 Let $Z_p^{\*}$ be a multiplicative group for some prime $p$. For a generator $g \in Z_p^{\*}$ and integers $x,y$ where $1 < x,y < p-1$, if $g^x$ and $g^y$ are given, it is computationally infeasible to obtain $g^{xy}$.
 
 ### 3. Bilinear Pairings ###
 
-Consider a group $G$ and a *target* group $G_T$. Let $P, Q \in G$. For integers $x, y$ we define a *bilinear pairing* $e: G \times G \rightarrow G_T$ as follows: $$e(P^x,Q^y) = e(P,Q)^{xy}$$
+Consider a group $G$ and a second group $G_T$. Let $P, Q \in G$. For integers $x, y$ we define a *bilinear pairing* $e: G \times G \rightarrow G_T$ as follows: $$e(P^x,Q^y) = e(P,Q)^{xy}$$
+
+$G$ is called the *base group* while $G_T$ is called the *target group*.
 
 Given two elements of $G$, viz. $g^x, g^y$, it should be possible to check for some element $h = g^{xy}$ without knowing $x$ and $y$.
 How? Using the operator $e$, repeated application of the definition of $e$ yields the following:
