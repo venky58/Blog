@@ -4,7 +4,7 @@
 
 ### 1. The Discrete Logarithm Assumption ###
 
-Given a multiplicative cyclic group of order $p$, $Z_p^{\*}$ for a prime $p$, and a generator $g \in Z_p^{\*}$, for some $x$, $1 < x < p-1$, if $y \equiv g^x \mod p$ then it is computationally infeasible to determine $x$ from $y$.
+Given a multiplicative cyclic group of order <img src="https://render.githubusercontent.com/render/math?math=p, Z_p^{\*}" for a prime <img src="https://render.githubusercontent.com/render/math?math=p", and a generator <img src="https://render.githubusercontent.com/render/math?math=g \in Z_p^{\*}", for some <img src="https://render.githubusercontent.com/render/math?math=x, 1 < x < p-1", if <img src="https://render.githubusercontent.com/render/math?math=y \equiv g^x \mod p" then it is computationally infeasible to determine <img src="https://render.githubusercontent.com/render/math?math=x" from <img src="https://render.githubusercontent.com/render/math?math=y".
 
 $G$ is called the *base group* while $G_T$ is called the *target group*.
 
